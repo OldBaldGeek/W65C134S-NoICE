@@ -1,0 +1,74 @@
+; Define states for W65C134S interrupt
+; These will be shown on NoICE title bar after an interrupt.
+; The numbers must match those returned by the target monitor
+STATETEXT 44 PE44 interrupt
+STATETEXT 45 PE45 interrupt
+STATETEXT 46 NE46 interrupt
+STATETEXT 47 NE47 interrupt
+STATETEXT 50 PE50 interrupt
+STATETEXT 51 PE51 interrupt
+STATETEXT 52 NE52 interrupt
+STATETEXT 53 NE53 interrupt
+STATETEXT 11 Reserved FFE0 interrupt
+STATETEXT 10 Reservec FFE0 interrupt
+STATETEXT 9 IRQAT interrupt
+STATETEXT 8 IRQAR interrupt
+STATETEXT 7 IRQSIB interrupt
+STATETEXT 54 PE54 interrupt
+STATETEXT 55 PE55 interrupt
+STATETEXT 56 PE56 interrupt
+STATETEXT 57 NE57 interrupt
+STATETEXT 6 IRQT1 interrupt
+STATETEXT 5 IRQT2 interrupt
+STATETEXT 4 IRQ2 interrupt
+STATETEXT 3 NMI
+STATETEXT 2 IRQ1 interrupt
+
+; Port addresses per WDC documentation
+; Feel free to rename or delete as you prefer
+DEF PD0    $0000
+DEF PD1    $0001
+DEF PD2    $0002
+DEF PD3    $0003
+DEF PDD0   $0004
+DEF PDD1   $0005
+DEF PDD2   $0006
+DEF PCS3   $0007
+DEF IFR2   $0008
+DEF IER2   $0009
+DEF TCR1   $000A
+DEF TCR2   $000B
+DEF T1LL   $000C
+DEF T1LH   $000D
+DEF T2LL   $000E
+DEF T2LH   $000F
+DEF T1CL   $0010
+DEF T1CH   $0011
+DEF T2CL   $0012
+DEF T2CH   $0013
+DEF STATE  $0014
+DEF SR0    $0015
+DEF SR1    $0016
+DEF SR2    $0017
+DEF SR3    $0018
+DEF SCSR   $0019
+DEF BAR    $001A
+DEF BCR    $001B
+DEF PD4    $001C
+DEF PD5    $001D
+DEF PDD4   $001E
+DEF PDD5   $001F
+DEF PD6    $0020
+DEF PDD6   $0021
+DEF ACSR   $0022
+DEF ARTD   $0023
+DEF TALL   $0024
+DEF TALH   $0025
+DEF TACL   $0026
+DEF TACH   $0027
+DEF TMLL   $0028
+DEF TMLH   $0029
+DEF TMCL   $002A
+DEF TMCH   $002B
+DEF IFR1   $002C
+DEF IER1   $002D
